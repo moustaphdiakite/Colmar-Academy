@@ -2,3 +2,21 @@
     box-sizing: border-box;
 }
 
+/* Header */
+
+header {
+    height: 64px;
+    background-color: white;
+}
+
+header li {
+    list-style: none;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
