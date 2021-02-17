@@ -4,6 +4,10 @@
 
 /* Header */
 
+.Desktop {
+    display: none;
+}
+
 header {
     height: 64px;
     background-color: white;
@@ -13,9 +17,39 @@ header li {
     list-style: none;
 }
 
-nav ul{
+.Mobile ul{
     display: flex;
     justify-content: space-around;
+}
+
+
+@media only screen and (min-width: 1024px) {
+
+    .Mobile {
+        display: none;
+    }
+    .Desktop {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .branding {
+        display: flex;
+        align-items: center;
+        margin-left: 24px;
+    }
+
+    .links {
+        width: 30%;
+    }
+
+    .Desktop ul {
+        display: flex;
+        padding-left: 0px;
+        justify-content: space-evenly;
+    }
+
+
 }
 
 
