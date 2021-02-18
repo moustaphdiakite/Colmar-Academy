@@ -90,7 +90,7 @@ header li {
 
 button {
     width: 80%;
-    padding: 1rem;
+    padding: 8px 1rem;
     display: block;
     margin: auto;
     background-color: hsl(44, 0%, 55%);
@@ -101,4 +101,29 @@ button {
     padding: 0 1rem;
 }
 
+@media only screen and (min-width: 1024px) {
+
+    .banner {
+        display: flex;
+        align-items: center;
+    }
+    .banner figure {
+        width: 60%;
+        padding: 2rem 24px 0 24px;
+        display: inline-block;
+        margin: unset;
+    }
+
+    .banner img {
+        
+
+    }
+
+    .banner div {
+        display: inline-block;
+        width: 39.6%;
+        padding: unset;
+    }
+
+}
 
