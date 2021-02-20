@@ -262,5 +262,49 @@ button {
         padding: 2rem 72px;
     }
 
+    .course img,
+    .course p {
+        display: block;
+    }
+
+
+    .courses {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .course {
+        padding: unset;
+        width: 30%;
+        margin: unset;
+        background-color: white;
+        min-height: 330px;
+    }
+
+    .course img {
+        width: 100%;
+        height: auto;
+    }
+
+    .course h3,
+    .course p {
+        padding-left: 1rem;
+    }
+
+
+    .description {
+        margin-bottom: 24px;
+    }
+
+
+    .middle {
+        margin: 0 2rem;
+    }
+
+    .top-row {
+        margin-bottom: 2rem;
+    }
+
+
 }
 
