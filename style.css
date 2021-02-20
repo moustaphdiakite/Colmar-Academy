@@ -253,14 +253,17 @@ button {
 
 
 
-
-
 @media only screen and (min-width: 1024px) {
 
     .learning {
         background-color: hsl(44, 0%, 90%) !important;
         padding: 2rem 72px;
     }
+
+    .learning h2 {
+        padding-top: unset;
+        margin: 0 0 2rem 0;
+    }   
 
     .course img,
     .course p {
@@ -305,6 +308,28 @@ button {
         margin-bottom: 2rem;
     }
 
-
 }
 
+/* Thesis Exhibits */
+
+.exhibits {
+    padding-bottom: 24px;
+}
+
+.exhibits h2 {
+    text-align: center;
+    margin: unset;
+    padding: 2rem 0 1rem 0;
+}
+
+.exhibits video {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Footer */
+
+footer{
+    padding: 1rem;
+}
