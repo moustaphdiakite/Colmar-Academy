@@ -224,3 +224,43 @@ button {
 
 
 }
+
+
+
+
+/* Start Learning */
+
+.learning {
+    border: 1px solid hsl(44, 0%, 75%);
+    padding-bottom: 2rem;
+}
+.learning h2 {
+    text-align: center;
+    padding-top: 12px;
+}
+.course {
+    width: 90%;
+    margin: auto;
+    background-color: hsl(44, 0%, 75%);
+    padding: 1rem 1rem;
+    margin-bottom: 8px;
+    
+}
+.course img,
+.course p {
+    display: none;
+}
+
+
+
+
+
+@media only screen and (min-width: 1024px) {
+
+    .learning {
+        background-color: hsl(44, 0%, 90%) !important;
+        padding: 2rem 72px;
+    }
+
+}
+
