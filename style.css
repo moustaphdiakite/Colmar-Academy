@@ -166,6 +166,7 @@ button {
 
     .information {
         display: flex;
+        background-color: white !important;
     }
 
     
@@ -198,6 +199,7 @@ button {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
         padding: 1rem 1rem;
         border-top: 1px solid hsl(44, 0%, 75%);
     }
