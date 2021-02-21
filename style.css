@@ -310,10 +310,21 @@ button {
 
 }
 
-/* Thesis Exhibits */
+/* Thesis Exhibits and Footer  */
 
 .exhibits {
     padding-bottom: 24px;
+}
+
+.right,
+.left h3,
+.left q {
+    display: none;
+}
+
+
+.agreement {
+    display: none;
 }
 
 .exhibits h2 {
@@ -327,9 +338,101 @@ button {
     height: auto;
 }
 
-
-/* Footer */
-
-footer{
+footer {
     padding: 1rem;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 1024px) {
+
+    .right,
+    .left h3,
+    .left q {
+        display: block;
+    }
+
+    .exhibits {
+        padding: 0 5px 2rem 24px;
+    }
+
+    .exhibits h2 {
+        padding-bottom: 2rem;
+    }
+
+    .exhibits-content {
+        display: flex;
+    }
+
+    .left {
+        width: 60%;
+        padding-right: 24px;
+    }
+
+    .right {
+        width: 40%;
+    }
+
+    .side img {
+        width: 35%;
+        padding-right: 1rem;
+    }
+
+
+    .right-child {
+        display: flex;
+        align-items: center;
+    }
+
+    .gray {
+        background-color: hsl(44, 0%, 75%);
+        padding: 1rem;
+    }
+
+    .white {
+        padding: 1rem;
+    }
+
+    .right-side-content {
+        width: 65%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .agreement {
+        display: inline-block;
+    }
+
+    .agreement ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        padding: unset;
+        margin: unset;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 24px;
+        padding-bottom: 2rem;
+        border-top: 1px solid hsl(44, 0%, 75%);
+    }
+
+    footer li {
+       margin: 0 1.5rem;
+    }
+
+
 }
